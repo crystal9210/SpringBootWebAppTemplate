@@ -1,0 +1,19 @@
+/* ボタンのスタイル */
+button {
+    background-color: #4CAF50; /* 緑色 */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px; /* 上下10px、左右2pxの余白 */
+    cursor: pointer;
+    border-radius: 12px; /* 角を丸くする */
+}
+
+/* aタグの下線を削除 */
+a {
+    text-decoration: none;
+}

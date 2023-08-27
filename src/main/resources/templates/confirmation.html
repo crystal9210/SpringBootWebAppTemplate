@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>登録完了画面</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h1>Congratulations!!</h1>
+  <h2>おめでとうございます！！偽サイトへの登録が完了しました！！</h2>
+  <h2>登録情報：</h2>
+  <p>Name: <strong th:text="${rb.name}"></strong></p><br>
+  <p>age: <strong th:text="${rb.age}"></strong></p><br>
+  <p>develop experience: <strong th:text="${rb.lang}"></strong></p>
+　<br>
+  <a href="/english_riddles">
+      <button>なぞなぞスタートページに行く</button>
+  </a>
+  <a href="/">
+      <button>ホーム画面に戻る</button>
+  </a>
+　 <a href="/input">
+      <button>偽サイトへの登録開始画面に戻る</button>
+  </a>
+</body>
+</html>
